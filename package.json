@@ -1,0 +1,27 @@
+{
+    "name": "workout-tracker",
+    "version": "1.0.0",
+    "description": "A workout tracker that will allow the user to view, create, and track daily workouts. User can log multiple exercises in a workout on a given day as well as track the name, type, weight, sets, reps, and duration of exercise.",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js",
+      "watch": "nodemon server.js",
+      "seed": "node seeders/seed.js"
+    },
+    "author": "Dan Bohn",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "heroku": "^7.42.6",
+      "mongoose": "^5.10.0",
+      "morgan": "^1.10.0",
+      "path": "^0.12.7"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dbohn32/workout-tracker.git"
+    },
+    "homepage": "https://github.com/dbohn32/workout-tracker#readme",
+    "devDependencies": {}
+  }
